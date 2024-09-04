@@ -29,3 +29,8 @@ For last 10,000 epsilon is set 0.1 and not decayed.<br/>
 <br/>
 After the training it learnt to play fairly well against player.<br/>
 But one problem persists. That is the agent playing in sequential order against each other even after randomizing first and second moves in training.<br/>
+
+
+# Files
+q1.xyz and q2.xyz are 2 files which are the q tables for agents. <br/>
+To load it simply run the pickle.load cell, it will initialize the Q values for both agents.
